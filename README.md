@@ -9,24 +9,26 @@
 1. Use a prompt like the following to start off your agent:
 
 ```txt
-Review README.md in order to understand this repo - then build a plan to begin building.
+Review README.md in order to understand this repo and compile a plan in order to built it, asking questions if needed.
 ```
 
-1. Use Claude Code's PLAN mode to kick the process off and *anytime* you start from fresh context.
+**TIPS AND TRICKS:**
 
-1. Use Claude Opus 4.5 Thinking. **Use state-of-the-art models and methods to get state-of-the-art results.**  Vibing can be a terrible and frustrating experience with out-dated technology from just 9 months ago.
+1. Use your agent's **PLAN mode** to kick the process off and *anytime* you start from fresh context.
 
-1. Consider using a more-appropriate IDE, like Cursor - See https://cursor.com/blog/browser-visual-editor for latest features especially built for things like web design.
+1. Use Claude Opus 4.6 Thinking (or newer models). **By using state-of-the-art models and methods we get state-of-the-art results.**  Vibing can be a terrible and frustrating experience with out-dated technology.
+
+1. Take advantage of your agentic-IDE's design features especially built for things like web design. For example, see https://cursor.com/blog/browser-visual-editor.
 
 ## INSTRUCTIONS FOR AGENTS:
 
-This repository is for a Svelte 5 web app meant to be build with GitHub Actions and published on GitHub Pages and has the following requirements:
+This repository is a Svelte 5 web app meant to be built with GitHub Actions, deployed with GitHub Pages, and has the following requirements:
 
 - It should work as an SPA, with hash-based routing.
 - It should include a 404.html which will re-route a user back to the homepage.
 - It should be entirely client-side (no SSR)
 
-The agent's job is to take lead on the design, implementation, devops, and repository maintenance for this project as it is iteratively build with human developer team feedback.
+The agent's job is to take lead on the design, implementation, devops, and repository maintenance for this project as it is iteratively build with human developer team feedback. Your development should be tracked in a SINGLE markdown file which remains terse, should have sections rewritten instead of holding appended chronologies, and should be used primarily by the agent and can therefore avoid technical explanations and code snippets meant for human readability.
 
 ### How to install and run locally
 
@@ -40,11 +42,10 @@ Once installed ...
 pnpm run dev
 ```
 
-
 ---
 
-## WEBSITE DESIGN:
+## WEB APP DESIGN:
 
-This website will be for "Hood River Forge" which is a non-profit... DESCRIBE THE WEB PAGE HERE... USE SEVERAL PARAGRAPHS
+This web app...
 
-PLACE IMAGES IN THE `assets/` directory (if desired), then describe them and where they should go in the website.
+NOTE: PLACE IMAGES IN THE `assets/` directory (if needed), then describe them and how they should be used.
